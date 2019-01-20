@@ -11,6 +11,7 @@ We have the following notebooks:
  - Model Definition (Classical Algorithms): Here I develop the pipeline to train classical models such as SVMs, Naive Bayes, and Random Forests. I also implement more text transformations such as CountVectorizer and TF-IDF and cross-validate the models with a variety of features.
  - Model Definition (Deep Learning): In this notebook I define a LSTM Network for text classification using pytorch. We also import GloVe pre-trained embeddings from twitter data found on kaggle. You can download it here: https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/discussion/50350
  - Model Evaluation: Here I explore some metrics to check how our models are perform and do a brief discussion about the best models.
+ - Sentiment Analysis: Here we have a demo where a few tweets are classified and we see our model for a non-technical public.
  
  # Summary
  
