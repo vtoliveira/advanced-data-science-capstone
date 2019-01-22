@@ -13,6 +13,14 @@ We have the following notebooks:
  - Model Evaluation: Here I explore some metrics to check how our models are perform and do a brief discussion about the best models.
  - Sentiment Analysis: Here we have a demo where a few tweets are classified and we see our model for a non-technical public.
  
- # Summary
  
- # TODO
+ # Summary
+
+ #### TODO
+
+ # Video Presentation
+ 
+ Also, one of the tasks was to produce a video presentation about my project. Here you can see all the details about the product developed, models definition, evaluation, etc.
+ 
+ [![Sentiment Analysis](https://github.com/vtoliveira/advanced-data-science-capstone/blob/master/video.JPG)]
+ (https://www.youtube.com/watch?v=oLX73CMh8Fc&t=43s)
