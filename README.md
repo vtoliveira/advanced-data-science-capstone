@@ -22,5 +22,5 @@ We have the following notebooks:
  
  Also, one of the tasks was to produce a video presentation about my project. Here you can see all the details about the product developed, models definition, evaluation, etc.
  
- [![Sentiment Analysis](https://github.com/vtoliveira/advanced-data-science-capstone/blob/master/video.JPG)]
+ ![Sentiment Analysis](https://github.com/vtoliveira/advanced-data-science-capstone/blob/master/video.JPG)
  (https://www.youtube.com/watch?v=oLX73CMh8Fc&t=43s)
