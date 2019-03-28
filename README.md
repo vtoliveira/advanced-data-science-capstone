@@ -4,7 +4,6 @@ This repository has a series of notebooks used in the course Advanced Data Scien
 
 # Content
 
-We have the following notebooks:
  - Initial Data Exploration: Notebook for exploratory analysis, checking features, missing values, graphics and insights for feature extraction.
  - Feature Creation (Bag of Words): Here I extract features based on classical approach for text mining. Polarity scores, negation, POS count, emoticons, etc. The data was saved as data_preprocessed.csv
  - Feature Creation (Word Embedding): Another approach is to create embeddings based on the given tweets. Here I use gensim, a python library to train embeddings from pure texts.
@@ -13,10 +12,21 @@ We have the following notebooks:
  - Model Evaluation: Here I explore some metrics to check how our models are perform and do a brief discussion about the best models.
  - Sentiment Analysis: Here we have a demo where a few tweets are classified and we see our model for a non-technical public.
  
- 
  # Summary
+ 
+ My major contribution with this project was being able to produce diffent models in order to do a systematic comparison between classical machine learning techniques and feature extraction vs deep learning recurrent neural networks with twitter word embeddings.
 
- #### TODO
+Below we have the confustion matrix for the three best classical approaches (Random Forest, SVM and Naive Bayes). I used a tf-idf approach with SVM and Random Forest and a count vector with NB. The results were obtained after cross-validation for hyperparameter tuning. It is clear that SVM with bi-grams achieved the best results in this case.
+
+![Sentiment Analysis](https://github.com/vtoliveira/advanced-data-science-capstone/blob/master/classical.png)
+
+Next, we used word embeddings trained on twitter data, for 50, 100, and 200 dimensions and used a LSTM network to classify the tweets sentiments.
+
+![Sentiment Analysis](https://github.com/vtoliveira/advanced-data-science-capstone/blob/master/lstm.png)
+
+
+
+ 
 
  # Video Presentation
  
