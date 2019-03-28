@@ -24,7 +24,14 @@ Next, we used word embeddings trained on twitter data, for 50, 100, and 200 dime
 
 ![Sentiment Analysis](https://github.com/vtoliveira/advanced-data-science-capstone/blob/master/lstm.png)
 
+To finish, we had prediction, accuracy, f1 and recall scores for each model.
 
+![Sentiment Analysis](https://github.com/vtoliveira/advanced-data-science-capstone/blob/master/lstm_scores.png)
+![Sentiment Analysis](https://github.com/vtoliveira/advanced-data-science-capstone/blob/master/classical_scores.png)
+
+We can see the LSTM performs better overall and that was our choosed model.
+
+**Observation**: I would like to include a comment on training the LSTM Network. Even though it achieved a better result, as our test set is small and we have a considerable small sample regarding text classification, the best results were achieved after intense training and tuning, which can be impractical sometimes.
 
  
 
